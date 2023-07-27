@@ -1,0 +1,1 @@
+this folder is for chapter 0x02-function_nested_loops from ALX SE formation
