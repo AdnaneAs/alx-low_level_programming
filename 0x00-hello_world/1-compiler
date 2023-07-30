@@ -1,2 +1,4 @@
 #!/bin/bash
-gcc -c $CFILE -o $CFILE.o
+c_file= "$CFILE"
+o_file= "${c_file%.c}.o"
+gcc -c "$c_file" -o "$o_file" 
