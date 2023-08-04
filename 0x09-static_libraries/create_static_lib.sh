@@ -1,3 +1,6 @@
-gcc -c *.c
-ar rc liball.a *.o
-echo y | rm -I *.o
+#!/bin/bash
+
+gcc -c *c
+ar rcs liball.a *.o
+rm *.o
+ar -t liball.a
