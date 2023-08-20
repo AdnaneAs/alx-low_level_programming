@@ -4,7 +4,6 @@ this folder contains project from chapter 0x10. C - Variadic functions in ALX SE
 
 ## Tasks
 
-- All `*-main.c` files will be located in the [main](./main) directory.
 
 0. [Beauty is variable, ugliness is constant](./0-sum_them_all.c) : A function that returns the sum of all its parameters.
 	- Prototype: `int sum_them_all(const unsigned int n, ...);`
